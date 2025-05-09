@@ -11,4 +11,5 @@ rate=float(input("entre the annual intrest rate(in percentage):"))
 time=float(input("entre the number of periods:"))
 #calculate the compound intrest
 intrest=calculate_compound_intrest(principal,rate,time)
+print(f"the compound intrest is :{intrest:2f}")
                                        
